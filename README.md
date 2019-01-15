@@ -47,7 +47,7 @@ Vue.use(clipper)
 </style>
 ```
 
-3、准备上传的file input和一个现实预览的img dom
+3、准备上传的file input和一个预览的img标签，上传后的图片会预览到target img上
 
 ```javascript
 <input type="file" accept="image/*" id="capture" @change="upload($event)">
